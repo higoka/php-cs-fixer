@@ -1,0 +1,50 @@
+{
+	"name": "php-cs-fixer",
+	"displayName": "PHP-CS-Fixer",
+	"description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
+	"version": "0.0.1",
+	"publisher": "higoka",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Formatters",
+		"Linters",
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:php",
+		"onCommand:php-cs-fixer.fix"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "php-cs-fixer.fix",
+				"title": "PHP-CS-Fixer: Fix current file"
+			}
+		],
+		"configuration": [
+			{
+				"title": "PHP-CS-Fixer",
+				"properties": {
+					"php-cs-fixer.executable": {
+						"description": "Path to the php-cs-fixer executable.",
+						"type": "string",
+						"default": "php-cs-fixer"
+					},
+					"php-cs-fixer.configFile": {
+						"description": "Path to the php-cs-fixer config.",
+						"type": "string",
+						"default": ""
+					},
+					"php-cs-fixer.onSave": {
+						"description": "Execute command on save.",
+						"type": "boolean",
+						"default": false
+					}
+				}
+			}
+		]
+	}
+}
