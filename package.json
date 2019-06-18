@@ -4,6 +4,11 @@
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
   "version": "0.0.1",
   "publisher": "higoka",
+  "author": {
+    "name": "higoka",
+    "url": "https://github.com/higoka"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.35.0"
   },
@@ -11,6 +16,9 @@
     "Formatters",
     "Linters",
     "Other"
+  ],
+  "keywords": [
+    "php-cs-fixer"
   ],
   "activationEvents": [
     "onLanguage:php",
@@ -45,6 +53,14 @@
           }
         }
       }
-    ]
+    ],
+    "bugs": {
+      "url": "https://github.com/higoka/vscode-php-cs-fixer/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/higoka/vscode-php-cs-fixer.git"
+    },
+    "homepage": "https://github.com/higoka/vscode-php-cs-fixer/blob/master/README.md"
   }
 }
