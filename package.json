@@ -18,7 +18,8 @@
     "Other"
   ],
   "keywords": [
-    "php-cs-fixer"
+    "php-cs-fixer",
+    "php"
   ],
   "activationEvents": [
     "onLanguage:php",
