@@ -26,7 +26,7 @@
     "onCommand:php-cs-fixer.fix"
   ],
   "main": "./extension.js",
-  "icon": "./icon.png",
+  "icon": "icon.png",
   "contributes": {
     "commands": [
       {
