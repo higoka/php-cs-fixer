@@ -21,6 +21,10 @@ function activate(context) {
       param.push(`--config=${config.configFile}`)
     }
 
+    if (config.pathMode) {
+      param.push(`--path-mode=${config.pathMode}`)
+    }
+
     // console.log(param.join(' '))
 
     exec(param.join(' '), function (err, stdout, stderr) {

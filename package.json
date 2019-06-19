@@ -2,7 +2,7 @@
   "name": "php-cs-fixer",
   "displayName": "PHP-CS-Fixer",
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "higoka",
   "author": {
     "name": "higoka",
@@ -40,17 +40,26 @@
           "php-cs-fixer.executable": {
             "description": "Path to the php-cs-fixer executable.",
             "type": "string",
-            "default": "php-cs-fixer"
+            "default": "/usr/local/bin/php-cs-fixer"
           },
           "php-cs-fixer.configFile": {
             "description": "Path to the php-cs-fixer config.",
             "type": "string",
             "default": ""
           },
+          "php-cs-fixer.pathMode": {
+            "description": "Appends the \"--path-mode\" parameter",
+            "type": "string",
+            "enum": [
+              "override",
+              "intersection"
+            ],
+            "default": "intersection"
+          },
           "php-cs-fixer.onSave": {
             "description": "Execute command on save.",
             "type": "boolean",
-            "default": false
+            "default": true
           }
         }
       }

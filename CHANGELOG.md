@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 2019-06-19
+### Added
+- Configuration: `php-cs-fixer.pathMode`
+
+## [0.0.4] - 2019-06-19
+### Changed
+- Bump version
+
 ## [0.0.3] - 2019-06-19
 ### Changed
 - Updated package.json with missing entries
@@ -20,7 +28,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2019-06-19
 - Initial release
 
-[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v0.0.5...HEAD
+[0.0.5]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.5
+[0.0.4]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.4
 [0.0.3]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.3
 [0.0.2]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.2
 [0.0.1]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.1
