@@ -2,8 +2,12 @@
 
 Integrates PHP-CS-Fixer into Visual Studio Code.
 
+#### Yet another PHP-CS-Fixer extension?
+I tested many other extensions but they did not work for me or are outdated, still using the first version of php-cs-fixer. So i decided to make my own that fit my needs. Very minmal, nothing special just what i like.
+
 ## Requirement
-- php-cs-fixer
+
+* php-cs-fixer
 
 For more information please visit: https://cs.symfony.com/
 
@@ -14,12 +18,9 @@ For more information please visit: https://cs.symfony.com/
 * `php-cs-fixer.pathMode`: Appends the "--path-mode" parameter.
 * `php-cs-fixer.onSave`: Execute command on save.
 
-## FAQ
-### Yet another PHP-CS-Fixer extension?
-- Because the existing ones didn't worked for me or are outdated i created this extension. I just needed a way to run PHP-CS-Fixer inside Visual Studio Code.
+## Error Handling
 
-### Error: "PHP-CS-Fixer: An error occurred."
-- Check the Developer Tools Console to find out what causes this error.
+If an error occurs you can check the Developer Tools Console to get more information.
 
 ## License
 
