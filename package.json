@@ -2,7 +2,7 @@
   "name": "php-cs-fixer",
   "displayName": "PHP-CS-Fixer",
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "higoka",
   "author": {
     "name": "higoka",
