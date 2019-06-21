@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.9] - 2019-06-21
+## [0.0.9] - 2019-06-22
 ### Added
 - Example usage of PHP-CS-Fixer extension
 
