@@ -25,6 +25,8 @@ For more information please visit: https://cs.symfony.com/
 * `php-cs-fixer.pathMode`: Set "--path-mode" parameter.
 * `php-cs-fixer.onSave`: Execute command on save.
 
+**NOTE**: You may need to reload to Visual Studio Code when changing any configuration to take effect.
+
 ## Error Handling
 
 If an error occurs you can check the Developer Tools Console to get more information.
