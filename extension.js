@@ -8,7 +8,7 @@ function activate(context) {
 
   const config = vscode.workspace.getConfiguration('php-cs-fixer')
 
-  context.subscriptions.push(vscode.commands.registerCommand('php-cs-fixer.fix', function () {
+  context.subscriptions.push(vscode.commands.registerCommand('php-cs-fixer.fix', () => {
     const param = []
 
     if (config.executable) {
@@ -27,7 +27,7 @@ function activate(context) {
 
     // console.log(param.join(' '))
 
-    exec(param.join(' '), function (err, stdout, stderr) {
+    exec(param.join(' '), (err, stdout, stderr) => {
       if (err) {
         vscode.window.showErrorMessage('PHP-CS-Fixer: An error occurred.')
         throw err
@@ -37,7 +37,7 @@ function activate(context) {
     })
   }))
 
-  context.subscriptions.push(vscode.workspace.onWillSaveTextDocument(function (e) {
+  context.subscriptions.push(vscode.workspace.onWillSaveTextDocument((e) => {
     if (e.document.languageId === 'php' && config.onSave) {
       e.waitUntil(vscode.commands.executeCommand('php-cs-fixer.fix'))
     }

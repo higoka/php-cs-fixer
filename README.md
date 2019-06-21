@@ -13,9 +13,9 @@ For more information please visit: https://cs.symfony.com/
 
 ## Configuration
 
-* `php-cs-fixer.executable`: Path to the php-cs-fixer executable.
-* `php-cs-fixer.configFile`: Path to the php-cs-fixer config.
-* `php-cs-fixer.pathMode`: Appends the "--path-mode" parameter.
+* `php-cs-fixer.executable`: Path to php-cs-fixer executable.
+* `php-cs-fixer.configFile`: Path to php-cs-fixer config.
+* `php-cs-fixer.pathMode`: Set "--path-mode" parameter.
 * `php-cs-fixer.onSave`: Execute command on save.
 
 ## Error Handling
