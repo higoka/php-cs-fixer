@@ -3,7 +3,14 @@
 Integrates PHP-CS-Fixer into Visual Studio Code.
 
 #### Yet another PHP-CS-Fixer extension?
+
 I tested many other extensions but they did not work for me or are outdated, still using the first version of php-cs-fixer. So i decided to make my own that fit my needs. Very minmal, nothing special just what i like.
+
+## Preview
+
+Just by saving your file PHP-CS-Fixer takes care of the code formatting for you.
+
+![preview](preview.gif)
 
 ## Requirement
 
