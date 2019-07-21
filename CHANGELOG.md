@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2019-07-21
+### Removed
+- Success info message
+
 ## [0.0.9] - 2019-06-22
 ### Added
 - Example usage of PHP-CS-Fixer extension
@@ -45,7 +49,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2019-06-19
 - Initial release
 
-[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v0.0.9...HEAD
+[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.0.0
 [0.0.9]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.9
 [0.0.8]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.8
 [0.0.7]: https://github.com/higoka/php-cs-fixer/releases/tag/v0.0.7

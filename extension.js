@@ -25,15 +25,11 @@ function activate(context) {
       param.push(`--path-mode=${config.pathMode}`)
     }
 
-    // console.log(param.join(' '))
-
     exec(param.join(' '), (err, stdout, stderr) => {
       if (err) {
         vscode.window.showErrorMessage('PHP-CS-Fixer: An error occurred.')
         throw err
       }
-
-      vscode.window.showInformationMessage('PHP-CS-Fixer: File successfully fixed.')
     })
   }))
 
