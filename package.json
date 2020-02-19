@@ -2,7 +2,7 @@
   "name": "php-cs-fixer",
   "displayName": "PHP-CS-Fixer",
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "higoka",
   "author": {
     "name": "higoka",
@@ -73,5 +73,8 @@
     "type": "git",
     "url": "https://github.com/higoka/php-cs-fixer.git"
   },
-  "homepage": "https://github.com/higoka/php-cs-fixer/blob/master/README.md"
+  "homepage": "https://github.com/higoka/php-cs-fixer/blob/master/README.md",
+  "dependencies": {
+    "vsce": "^1.73.0"
+  }
 }

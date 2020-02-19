@@ -15,7 +15,7 @@ function activate(context) {
       param.push(config.executable)
     }
 
-    param.push(`fix ${vscode.window.activeTextEditor.document.fileName}`)
+    param.push(`fix ${vscode.window.activeTextEditor.document.fileName} --using-cache=no`)
 
     if (config.configFile) {
       param.push(`--config=${config.configFile}`)
