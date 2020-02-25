@@ -2,7 +2,7 @@
   "name": "php-cs-fixer",
   "displayName": "PHP-CS-Fixer",
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "higoka",
   "author": {
     "name": "higoka",
@@ -55,7 +55,7 @@
               "override",
               "intersection"
             ],
-            "default": "intersection"
+            "default": "override"
           },
           "php-cs-fixer.onSave": {
             "description": "Execute command on save.",
