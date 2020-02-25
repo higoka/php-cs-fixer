@@ -9,6 +9,10 @@ function activate(context) {
   const config = vscode.workspace.getConfiguration('php-cs-fixer')
 
   context.subscriptions.push(vscode.commands.registerCommand('php-cs-fixer.fix', () => {
+    if (!config.configFile && config.pathMode === 'intersection') {
+      return vscode.window.showErrorMessage('PHP-CS-Fixer: Path mode "intersection" requires a config file be set. Please set one or change path mode to "override".')
+    }
+
     const param = []
 
     if (config.executable) {
