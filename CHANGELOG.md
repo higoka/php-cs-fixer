@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.2] - 2020-02-25
+### Added
+- Better error messages
+
 ## [1.1.1] - 2020-02-19
 ### Changed
 - Dont use caching
@@ -57,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2019-06-19
 - Initial release
 
-[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.2
 [1.1.1]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.1
 [1.1.0]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.0
 [1.0.0]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.0.0
