@@ -2,7 +2,7 @@
   "name": "php-cs-fixer",
   "displayName": "PHP-CS-Fixer",
   "description": "Integrates PHP-CS-Fixer into Visual Studio Code.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "publisher": "higoka",
   "author": {
     "name": "higoka",
@@ -19,7 +19,16 @@
   ],
   "keywords": [
     "php-cs-fixer",
-    "php"
+    "php cs fixer",
+    "php cs",
+    "php fixer",
+    "php linter",
+    "php formatter",
+    "php",
+    "fixer",
+    "formatter",
+    "linter",
+    "cs"
   ],
   "activationEvents": [
     "onLanguage:php",
