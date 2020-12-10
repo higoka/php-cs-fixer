@@ -1,7 +1,7 @@
 const vscode = require('vscode')
 const { exec } = require('child_process')
 
-function activate(context) {
+function activate (context) {
   if (vscode.window.activeTextEditor.document.languageId !== 'php') {
     return
   }
@@ -28,10 +28,10 @@ function activate(context) {
     if (config.pathMode) {
       param.push(`--path-mode=${config.pathMode}`)
     }
-    
+
     if (config.allowRisky) {
-			param.push(`--allow-risky=yes`)
-		}
+      param.push('--allow-risky=yes')
+    }
 
     exec(param.join(' '), (err, stdout, stderr) => {
       if (err) {
@@ -48,9 +48,6 @@ function activate(context) {
   }))
 }
 
-function deactivate() { }
+function deactivate () { }
 
-module.exports = {
-  activate,
-  deactivate
-}
+module.exports = { activate, deactivate }

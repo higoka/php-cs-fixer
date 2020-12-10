@@ -63,10 +63,10 @@
             "default": true
           },
           "php-cs-fixer.allowRisky": {
-						"description": "Allow risky rules.",
-						"type": "boolean",
-						"default": false
-					}
+            "description": "Allow risky rules.",
+            "type": "boolean",
+            "default": false
+          }
         }
       }
     ]
