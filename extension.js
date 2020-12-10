@@ -28,6 +28,10 @@ function activate(context) {
     if (config.pathMode) {
       param.push(`--path-mode=${config.pathMode}`)
     }
+    
+    if (config.allowRisky) {
+			param.push(`--allow-risky=yes`)
+		}
 
     exec(param.join(' '), (err, stdout, stderr) => {
       if (err) {
