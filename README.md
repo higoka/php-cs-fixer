@@ -24,6 +24,7 @@ For more information please visit: https://cs.symfony.com/
 * `php-cs-fixer.configFile`: Path to php-cs-fixer config.
 * `php-cs-fixer.pathMode`: Set "--path-mode" parameter.
 * `php-cs-fixer.onSave`: Execute command on save.
+* `php-cs-fixer.allowRisky`: Allow risky rules.
 
 **NOTE**: You may need to reload to Visual Studio Code when changing any configuration to take effect.
 
