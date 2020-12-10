@@ -6,6 +6,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.7] - 2020-12-10
+### Changed
+- Changelog
+
+## [1.2.6] - 2020-12-10
+### Changed
+- Keywords in package.json
+
+## [1.2.5] - 2020-12-10
+### Added
+- Option to allow risky rules
+
+### Changed
+- Code formatting
+
+## [1.1.5] - 2020-12-09
+### Fixed
+- Single quotes on Windows 10
+
+## [1.1.4] - 2020-09-07
+### Changed
+- Enclosed filenames with single quotes
+
+## [1.1.3] - 2020-02-25
+### Changed
+- Changelog
+
 ## [1.1.2] - 2020-02-25
 ### Added
 - Better error messages
@@ -61,7 +88,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2019-06-19
 - Initial release
 
-[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v1.1.2...HEAD
+[Unreleased]: https://github.com/higoka/php-cs-fixer/compare/v1.2.7...HEAD
+[1.2.7]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.2.7
+[1.2.6]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.2.6
+[1.2.5]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.2.5
+[1.1.5]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.5
+[1.1.4]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.4
+[1.1.3]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.3
 [1.1.2]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.2
 [1.1.1]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.1
 [1.1.0]: https://github.com/higoka/php-cs-fixer/releases/tag/v1.1.0
