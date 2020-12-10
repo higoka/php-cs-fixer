@@ -61,7 +61,12 @@
             "description": "Execute command on save.",
             "type": "boolean",
             "default": true
-          }
+          },
+          "php-cs-fixer.allowRisky": {
+						"description": "Allow risky rules.",
+						"type": "boolean",
+						"default": false
+					}
         }
       }
     ]
